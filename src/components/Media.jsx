@@ -1,11 +1,11 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import kubikLogo from '../assets/kubikLogo.png';
+import kubikLogo from '../assets/sung.png';
 
-const About = () => {
+const Media = () => {
   return (
     <Element
-      name="aboutSection"
+      name="mediaSection"
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -17,12 +17,12 @@ const About = () => {
       <img
         src={kubikLogo}
         alt="Kubik Team Logo"
-        style={{ width: '75vh', height: 'auto' }}
+        style={{ width: '300px', height: 'auto' }}
       />
       <h1>Kubik v1.0.0 </h1>
-      <p>Kubik is something that does something.</p>
+      <p>MEDIA SECTION</p>
     </Element>
   );
 };
 
-export default About;
+export default Media;

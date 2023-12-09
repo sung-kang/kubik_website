@@ -8,9 +8,12 @@ const Team = () => {
       name="teamSection"
       style={{
         marginTop: '2000px',
+        height: '75vh',
         display: 'flex',
         justifyContent: 'space-around',
+        alignItems: 'center',
         flexWrap: 'wrap',
+        textAlign: 'center',
       }}
     >
       {TeamMembers.map((member, idx) => {
@@ -20,7 +23,11 @@ const Team = () => {
             <img
               src={member.picture}
               alt={member.name}
-              style={{ width: '150px', height: '150px', borderRadius: '50%' }}
+              style={{
+                width: '20vh',
+                height: 'auto',
+                borderRadius: '50%',
+              }}
             />
             <p>
               <a href={member.linkedin} rel="noreferrer" target="_blank">

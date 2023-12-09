@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import { Element } from 'react-scroll';
-import About from './components/About';
 import Navbar from './components/NavBar';
+import About from './components/About';
+import Feature from './components/Feature';
+import Media from './components/Media';
 import Team from './components/Team';
 
 function App() {
@@ -12,6 +14,12 @@ function App() {
       <Navbar />
       <Element name="aboutSection">
         <About />
+      </Element>
+      <Element name="featureSection">
+        <Feature />
+      </Element>
+      <Element name="mediaSection">
+        <Media />
       </Element>
       <Element name="teamSection">
         <Team />
