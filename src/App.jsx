@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import { Element } from 'react-scroll';
 import Navbar from './components/NavBar';
@@ -10,7 +9,6 @@ import Team from './components/Team';
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Navbar />
       <Element name="aboutSection">
         <About />

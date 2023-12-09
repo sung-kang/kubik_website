@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import '../styles/navbar.css';
 
@@ -17,6 +16,7 @@ const Navbar = () => {
     >
       {/* DELETE aboutSection or use it as "back to top button" */}
       <Link
+        className="navLink"
         to="aboutSection"
         smooth
         duration={500}
@@ -25,6 +25,7 @@ const Navbar = () => {
         TO TOP(???)
       </Link>
       <Link
+        className="navLink"
         to="featureSection"
         smooth
         duration={500}
@@ -33,6 +34,7 @@ const Navbar = () => {
         FEATURES
       </Link>
       <Link
+        className="navLink"
         to="mediaSection"
         smooth
         duration={500}
@@ -41,6 +43,7 @@ const Navbar = () => {
         MEDIA
       </Link>
       <Link
+        className="navLink"
         to="teamSection"
         smooth
         duration={500}
@@ -49,6 +52,7 @@ const Navbar = () => {
         TEAM
       </Link>
       <a
+        className="navLink"
         href="https://github.com/oslabs-beta/kubik"
         target="_blank"
         rel="noopener noreferrer"

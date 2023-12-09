@@ -1,7 +1,5 @@
-// import anna from '../assets/anna.png';
 import branden from '../assets/branden.png';
 import felipe from '../assets/felipe.png';
-import nancy from '../assets/nancy.png';
 import sung from '../assets/sung.png';
 import yvonne from '../assets/yvonne.png';
 
@@ -15,12 +13,6 @@ const TeamMembers = [
   {
     name: 'Felipe',
     picture: felipe,
-    linkedin: 'linkedin goes here',
-    github: 'github goes here',
-  },
-  {
-    name: 'Nancy',
-    picture: nancy,
     linkedin: 'linkedin goes here',
     github: 'github goes here',
   },

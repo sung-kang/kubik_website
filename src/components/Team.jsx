@@ -1,4 +1,3 @@
-import React from 'react';
 import { Element } from 'react-scroll';
 import TeamMembers from './TeamMembers';
 
