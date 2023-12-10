@@ -13,13 +13,13 @@ const Feature = () => {
         height: '100vh',
       }}
     >
+      <h1>This is like working kinda</h1>
+      <p>WE HAVE GOOGLE OAUTH 2.0</p>
       <img
         src={kubikLogo}
         alt="Kubik Team Logo"
         style={{ width: '300px', height: 'auto' }}
       />
-      <h1>Kubik v1.0.0 </h1>
-      <p>FEATURE SECTION</p>
     </Element>
   );
 };

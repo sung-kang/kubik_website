@@ -22,7 +22,7 @@ const Navbar = () => {
         duration={500}
         style={{ marginLeft: '20px' }}
       >
-        TO TOP(???)
+        HOME
       </Link>
       <Link
         className="navLink"
