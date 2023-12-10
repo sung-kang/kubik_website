@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import kubikLogo from '../assets/sung.png';
+import featureList from '../utils/featureList';
 
 const Feature = () => {
   return (
@@ -13,13 +13,73 @@ const Feature = () => {
         height: '100vh',
       }}
     >
-      <h1>This is like working kinda</h1>
-      <p>WE HAVE GOOGLE OAUTH 2.0</p>
-      <img
-        src={kubikLogo}
-        alt="Kubik Team Logo"
-        style={{ width: '300px', height: 'auto' }}
-      />
+      {featureList.map((feature, idx) => {
+        return idx % 2 ? (
+          <div
+            key={idx}
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              width: '80vw',
+            }}
+          >
+            <img
+              src={feature.picture}
+              alt={feature.name}
+              style={{
+                width: '20vh',
+                height: 'auto',
+                borderRadius: '50%',
+              }}
+            />
+
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                textAlign: 'center',
+                width: '75%',
+              }}
+            >
+              <h2>{feature.name}</h2>
+              <p>{feature.description}</p>
+            </div>
+          </div>
+        ) : (
+          <div
+            key={idx}
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              width: '80vw',
+            }}
+          >
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                textAlign: 'center',
+                width: '75%',
+              }}
+            >
+              <h2>{feature.name}</h2>
+              <p>{feature.description}</p>
+            </div>
+
+            <img
+              src={feature.picture}
+              alt={feature.name}
+              style={{
+                width: '20vh',
+                height: 'auto',
+                borderRadius: '50%',
+              }}
+            />
+          </div>
+        );
+      })}
     </Element>
   );
 };

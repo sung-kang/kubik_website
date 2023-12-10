@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import TeamMembers from './TeamMembers';
+import TeamMembers from '../utils/TeamMembers';
 
 const Team = () => {
   return (

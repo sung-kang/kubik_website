@@ -5,10 +5,12 @@ import About from './components/About';
 import Feature from './components/Feature';
 import Media from './components/Media';
 import Team from './components/Team';
+import ParticlesComponent from './components/Particles';
 
 function App() {
   return (
     <div>
+      <ParticlesComponent />
       <Navbar />
       <Element name="aboutSection">
         <About />

@@ -1,5 +1,5 @@
 import { Element } from 'react-scroll';
-import kubikLogo from '../assets/sung.png';
+import kubikLogo from '../assets/teamPicture/sung.png';
 
 const Media = () => {
   return (

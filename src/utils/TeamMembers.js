@@ -1,7 +1,7 @@
-import branden from '../assets/branden.png';
-import felipe from '../assets/felipe.png';
-import sung from '../assets/sung.png';
-import yvonne from '../assets/yvonne.png';
+import branden from '../assets/teamPicture/branden.png';
+import felipe from '../assets/teamPicture/felipe.png';
+import sung from '../assets/teamPicture/sung.png';
+import yvonne from '../assets/teamPicture/yvonne.png';
 
 const TeamMembers = [
   {
