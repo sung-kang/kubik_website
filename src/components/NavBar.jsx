@@ -10,7 +10,7 @@ const Navbar = () => {
         display: 'flex',
         justifyContent: 'flex-end',
         padding: '2rem',
-        backgroundColor: '#5193B3',
+        backgroundColor: '#2596be',
         color: '#fff',
       }}
     >

@@ -28,7 +28,7 @@ const Feature = () => {
               src={feature.picture}
               alt={feature.name}
               style={{
-                width: '20vh',
+                width: '60vw',
                 height: 'auto',
                 borderRadius: '50%',
               }}
@@ -72,7 +72,7 @@ const Feature = () => {
               src={feature.picture}
               alt={feature.name}
               style={{
-                width: '20vh',
+                width: '60vw',
                 height: 'auto',
                 borderRadius: '50%',
               }}
