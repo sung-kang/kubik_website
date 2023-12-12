@@ -2,7 +2,6 @@ import { useCallback, useMemo } from 'react';
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 import particleOptions from '../utils/particleOptions';
-import particleOptionsTwo from '../utils/particpleOptionsTwo';
 
 const ParticlesComponent = () => {
   // const options = useMemo(() => {
@@ -17,7 +16,7 @@ const ParticlesComponent = () => {
   //   await console.log(container);
   // });
 
-  return <Particles init={particleInit} options={particleOptionsTwo} />;
+  return <Particles init={particleInit} options={particleOptions} />;
 };
 
 export default ParticlesComponent;

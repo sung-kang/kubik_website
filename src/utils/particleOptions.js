@@ -1,8 +1,11 @@
+import docker from '../assets/docker.png';
+import kubernetes from '../assets/kubernetes.png';
+
 const particleOptions = {
   autoPlay: true,
   background: {
     color: {
-      value: '#17163e',
+      value: '#F8C8DC',
     },
     image: '',
     position: '',
@@ -266,7 +269,7 @@ const particleOptions = {
       },
       random: false,
       size: false,
-      speed: 6,
+      speed: 2,
       spin: {
         acceleration: 0,
         enable: false,
@@ -293,17 +296,23 @@ const particleOptions = {
       value: 30,
     },
     opacity: {
-      value: 1,
+      value: 0.5,
+      // animation: {
+      //   count: 0,
+      //   enable: false,
+      //   speed: 2,
+      //   decay: 0,
+      //   delay: 0,
+      //   sync: false,
+      //   mode: 'auto',
+      //   startValue: 'random',
+      //   destroy: 'none',
+      // },
       animation: {
-        count: 0,
-        enable: false,
-        speed: 2,
-        decay: 0,
-        delay: 0,
+        enable: true,
+        speed: 1,
+        opacity_min: 0.1,
         sync: false,
-        mode: 'auto',
-        startValue: 'random',
-        destroy: 'none',
       },
     },
     reduceDuplicates: false,
@@ -319,10 +328,19 @@ const particleOptions = {
       },
     },
     shape: {
-      close: true,
-      fill: true,
-      options: {},
-      type: ['circle', 'square'],
+      type: ['image'],
+      image: [
+        {
+          src: docker,
+          height: 31,
+          width: 44,
+        },
+        {
+          src: kubernetes,
+          height: 40,
+          width: 42,
+        },
+      ],
     },
     size: {
       value: {
