@@ -9,18 +9,18 @@ const Navbar = () => {
         top: 0,
         display: 'flex',
         justifyContent: 'flex-end',
-        padding: '2rem',
-        backgroundColor: '#2596be',
+        padding: '1.5rem',
+        backgroundColor: '#4A5D77',
         color: '#fff',
+        zIndex: 1,
       }}
     >
-      {/* DELETE aboutSection or use it as "back to top button" */}
       <Link
         className="navLink"
         to="aboutSection"
         smooth
         duration={500}
-        style={{ marginLeft: '20px' }}
+        style={{ marginLeft: '2rem' }}
       >
         HOME
       </Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
         to="featureSection"
         smooth
         duration={500}
-        style={{ marginLeft: '20px' }}
+        style={{ marginLeft: '2rem' }}
       >
         FEATURES
       </Link>
@@ -38,7 +38,7 @@ const Navbar = () => {
         to="mediaSection"
         smooth
         duration={500}
-        style={{ marginLeft: '20px' }}
+        style={{ marginLeft: '2rem' }}
       >
         MEDIA
       </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
         to="teamSection"
         smooth
         duration={500}
-        style={{ marginLeft: '20px' }}
+        style={{ marginLeft: '2rem' }}
       >
         TEAM
       </Link>
@@ -56,7 +56,12 @@ const Navbar = () => {
         href="https://github.com/oslabs-beta/kubik"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ marginLeft: '20px', color: '#fff', textDecoration: 'none' }}
+        style={{
+          marginLeft: '2rem',
+          marginRight: '2rem',
+          color: '#fff',
+          textDecoration: 'none',
+        }}
       >
         GITHUB
       </a>

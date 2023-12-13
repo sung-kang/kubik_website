@@ -10,7 +10,9 @@ const Feature = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh',
+        // height: '100vh',
+        marginTop: '20vh',
+        marginBottom: '10vh',
       }}
     >
       {featureList.map((feature, idx) => {
@@ -21,16 +23,16 @@ const Feature = () => {
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              width: '80vw',
+              // width: '80vw',
             }}
           >
             <img
               src={feature.picture}
               alt={feature.name}
               style={{
-                width: '60vw',
+                width: '50%',
                 height: 'auto',
-                borderRadius: '50%',
+                borderRadius: '5%',
               }}
             />
 
@@ -38,12 +40,25 @@ const Feature = () => {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
+                justifyContent: 'space-around',
                 textAlign: 'center',
-                width: '75%',
+                width: '40%',
+                height: '50%',
+                color: '#fff',
               }}
             >
-              <h2>{feature.name}</h2>
-              <p>{feature.description}</p>
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  letterSpacing: '0.2rem',
+                  marginBottom: '2rem',
+                }}
+              >
+                {feature.name}
+              </h2>
+              <p style={{ fontSize: '1.3rem', lineHeight: '1.6' }}>
+                {feature.description}
+              </p>
             </div>
           </div>
         ) : (
@@ -60,21 +75,34 @@ const Feature = () => {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
+                justifyContent: 'space-around',
                 textAlign: 'center',
-                width: '75%',
+                width: '40%',
+                height: '50%',
+                color: '#fff',
               }}
             >
-              <h2>{feature.name}</h2>
-              <p>{feature.description}</p>
+              <h2
+                style={{
+                  fontSize: '3rem',
+                  letterSpacing: '0.2rem',
+                  marginBottom: '2rem',
+                }}
+              >
+                {feature.name}
+              </h2>
+              <p style={{ fontSize: '1.3rem', lineHeight: '1.6' }}>
+                {feature.description}
+              </p>
             </div>
 
             <img
               src={feature.picture}
               alt={feature.name}
               style={{
-                width: '60vw',
+                width: '50%',
                 height: 'auto',
-                borderRadius: '50%',
+                borderRadius: '5%',
               }}
             />
           </div>

@@ -5,28 +5,28 @@ import yvonne from '../assets/teamPicture/yvonne.png';
 
 const TeamMembers = [
   {
-    name: 'Branden',
+    name: 'Branden Chi',
     picture: branden,
-    linkedin: 'linkedin goes here',
-    github: 'github goes here',
+    linkedin: 'https://github.com/brandenchi',
+    github: 'https://github.com/brandenchi',
   },
   {
-    name: 'Felipe',
+    name: 'Felipe Varela',
     picture: felipe,
-    linkedin: 'linkedin goes here',
-    github: 'github goes here',
+    linkedin: 'https://www.linkedin.com/in/phil-varela-co/',
+    github: 'https://github.com/var-ela',
   },
   {
-    name: 'Sung is the team',
+    name: 'Sung Ku Kang',
     picture: sung,
-    linkedin: 'linkedin goes here',
-    github: 'github goes here',
+    linkedin: 'https://www.linkedin.com/in/sung-kang/',
+    github: 'https://github.com/sung-kang',
   },
   {
-    name: 'Yvonne',
+    name: 'Yvonne Tram',
     picture: yvonne,
-    linkedin: 'linkedin goes here',
-    github: 'github goes here',
+    linkedin: 'https://www.linkedin.com/in/yqtram/',
+    github: 'https://github.com/yqtram',
   },
 ];
 

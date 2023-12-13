@@ -5,7 +5,7 @@ const particleOptions = {
   autoPlay: true,
   background: {
     color: {
-      value: '#F8C8DC',
+      value: '#101F33',
     },
     image: '',
     position: '',
