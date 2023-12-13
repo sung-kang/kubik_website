@@ -1,8 +1,11 @@
 import { Element } from 'react-scroll';
 import featureList from '../utils/featureList';
+import FeatureMobile from './FeatureMobile';
 
 const Feature = () => {
-  return (
+  return window.innerWidth < 768 ? (
+    <FeatureMobile />
+  ) : (
     <Element
       name="featureSection"
       style={{

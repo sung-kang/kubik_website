@@ -1,14 +1,24 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
 import medium from '../assets/medium.png';
 
 const Media = () => {
   const [isMediumHovered, setIsMediumHovered] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const mediumImageStyle = {
     transform: isMediumHovered ? 'scale(1.1)' : 'scale(1)',
     transition: 'transform 0.5s ease-in-out',
-    width: '20vw',
+    width: windowWidth < 768 ? '50vw' : '20vw',
     height: 'auto',
   };
 
@@ -31,6 +41,7 @@ const Media = () => {
           color: '#fff',
           marginBottom: '5rem',
           textShadow: '6px 6px 6px rgba(100, 100, 100, 0.8)',
+          textAlign: 'center',
         }}
       >
         Read Our Article!

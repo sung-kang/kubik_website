@@ -10,15 +10,16 @@ const About = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh',
+        height: '80vh',
         color: '#fff',
         fontSize: '2rem',
+        textAlign: 'center',
       }}
     >
       <img
         src={kubikLogo}
         alt="Kubik Team Logo"
-        style={{ width: '75vh', height: 'auto' }}
+        style={{ width: '50%', height: 'auto' }}
       />
       <h1>Kubik v1.0.0 </h1>
       <p>Monitor and Visualize Your Kubernetes Clusters</p>
