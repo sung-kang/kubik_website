@@ -21,7 +21,7 @@ const About = () => {
         style={{ width: '75vh', height: 'auto' }}
       />
       <h1>Kubik v1.0.0 </h1>
-      <p>Kubik is something that does something.</p>
+      <p>Monitor and Visualize Your Kubernetes Clusters</p>
     </Element>
   );
 };
