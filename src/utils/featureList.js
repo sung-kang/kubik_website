@@ -1,7 +1,7 @@
+import cluster from '../assets/cluster.gif';
+import dashboard from '../assets/dashboard.gif';
+import home from '../assets/home.gif';
 import branden from '../assets/teamPicture/branden.png';
-import felipe from '../assets/teamPicture/felipe.png';
-import sung from '../assets/teamPicture/sung.png';
-import yvonne from '../assets/teamPicture/yvonne.png';
 
 const featureList = [
   {
@@ -12,19 +12,19 @@ const featureList = [
   },
   {
     name: 'Cluster Integration',
-    picture: felipe,
+    picture: home,
     description:
       'Expand your monitoring capabilities by connecting and adding Kubernetes clusters to your centralized health tracking system. Streamline the process of integrating clusters, allowing you to keep an eye on multiple environments from a single platform.',
   },
   {
     name: 'Metrics Dashboard',
-    picture: sung,
+    picture: dashboard,
     description:
       'Experience comprehensive insights into the health and performance of your Kubernetes cluster through a responsive dashboard. Monitor key metrics such as CPU utilization, RAM usage, disk space, memory, and network performance in real-time. ',
   },
   {
     name: 'Cluster Visualization',
-    picture: yvonne,
+    picture: cluster,
     description:
       'Gain a deeper understanding of your Kubernetes ecosystem with an interactive cluster graph representation. Explore the intricate relationships and complex interdependencies among nodes, pods, services, and deployments in a visually engaging manner. ',
   },
