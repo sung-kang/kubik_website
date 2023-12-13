@@ -1,12 +1,12 @@
 import cluster from '../assets/cluster.gif';
 import dashboard from '../assets/dashboard.gif';
 import home from '../assets/home.gif';
-import branden from '../assets/teamPicture/branden.png';
+import login from '../assets/login.png';
 
 const featureList = [
   {
     name: 'Google OAuth 2.0',
-    picture: branden,
+    picture: login,
     description:
       'Secure your Kubernetes cluster health monitoring with the power of Google Authentication and log in seamlessly using your Google credentials. This standardized approach to user access provides a robust layer of security for your project and cluster data.',
   },
