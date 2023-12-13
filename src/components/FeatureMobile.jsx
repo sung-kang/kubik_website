@@ -17,9 +17,6 @@ const FeatureMobile = () => {
           <div
             style={{
               display: 'block',
-              flexDirection: 'column',
-              justifyContent: 'space-around',
-              alignContent: 'center',
               textAlign: 'center',
               width: '100%',
               height: '50%',
