@@ -20,6 +20,7 @@ const Navbar = () => {
         to="aboutSection"
         smooth
         duration={500}
+        offset={-100}
         style={{ marginLeft: '2rem' }}
       >
         HOME
@@ -29,6 +30,7 @@ const Navbar = () => {
         to="featureSection"
         smooth
         duration={500}
+        offset={-150}
         style={{ marginLeft: '2rem' }}
       >
         FEATURES
@@ -38,6 +40,7 @@ const Navbar = () => {
         to="mediaSection"
         smooth
         duration={500}
+        offset={-350}
         style={{ marginLeft: '2rem' }}
       >
         MEDIA

@@ -20,8 +20,8 @@ const Media = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: '20vh',
-        marginBottom: '10vh',
+        marginTop: '30vh',
+        marginBottom: '50vh',
       }}
     >
       <h2

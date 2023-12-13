@@ -10,7 +10,6 @@ const Feature = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        // height: '100vh',
         marginTop: '20vh',
         marginBottom: '10vh',
       }}
@@ -23,7 +22,7 @@ const Feature = () => {
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              // width: '80vw',
+              width: '80vw',
             }}
           >
             <img

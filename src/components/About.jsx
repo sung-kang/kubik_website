@@ -11,6 +11,8 @@ const About = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
+        color: '#fff',
+        fontSize: '2rem',
       }}
     >
       <img
