@@ -49,7 +49,7 @@ const Media = () => {
       <a href={'https://www.google.com/'} rel="noreferrer" target="_blank">
         <img
           src={medium}
-          alt="Kubik Team Logo"
+          alt="kubik Team Logo"
           style={mediumImageStyle}
           onMouseEnter={() => setIsMediumHovered(true)}
           onMouseLeave={() => setIsMediumHovered(false)}

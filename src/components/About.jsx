@@ -18,10 +18,10 @@ const About = () => {
     >
       <img
         src={kubikLogo}
-        alt="Kubik Team Logo"
+        alt="kubik Team Logo"
         style={{ width: '50%', height: 'auto' }}
       />
-      <h1>Kubik v1.0.0 </h1>
+      <h1>kubik v1.0.0 </h1>
       <p>Monitor and Visualize Your Kubernetes Clusters</p>
     </Element>
   );
