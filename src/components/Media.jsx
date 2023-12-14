@@ -46,7 +46,13 @@ const Media = () => {
       >
         Read Our Article!
       </h2>
-      <a href={'https://www.google.com/'} rel="noreferrer" target="_blank">
+      <a
+        href={
+          'https://medium.com/@kubikkubernetes/introducing-kubik-51bed25777dd'
+        }
+        rel="noreferrer"
+        target="_blank"
+      >
         <img
           src={medium}
           alt="kubik Team Logo"
