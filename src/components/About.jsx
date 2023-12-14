@@ -19,7 +19,10 @@ const About = () => {
       <img
         src={kubikLogo}
         alt="kubik Team Logo"
-        style={{ width: '50%', height: 'auto' }}
+        style={{
+          width: window.innerWidth < 768 ? '100%' : '50%',
+          height: 'auto',
+        }}
       />
       <h1>kubik v1.0.0 </h1>
       <p>Monitor and Visualize Your Kubernetes Clusters</p>
