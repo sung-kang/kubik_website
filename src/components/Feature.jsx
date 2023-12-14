@@ -17,6 +17,18 @@ const Feature = () => {
         marginBottom: '10vh',
       }}
     >
+      <h2
+        style={{
+          fontSize: '5rem',
+          letterSpacing: '0.2rem',
+          color: '#F8D49B',
+          marginBottom: '5rem',
+          textShadow: '6px 6px 6px rgba(100, 100, 100, 0.8)',
+          textAlign: 'center',
+        }}
+      >
+        Features
+      </h2>
       {featureList.map((feature, idx) => {
         return idx % 2 ? (
           <div
@@ -26,6 +38,7 @@ const Feature = () => {
               justifyContent: 'space-between',
               alignItems: 'center',
               width: '80vw',
+              marginTop: '10rem',
             }}
           >
             <img
@@ -71,6 +84,7 @@ const Feature = () => {
               justifyContent: 'space-between',
               alignItems: 'center',
               width: '80vw',
+              marginTop: '10rem',
             }}
           >
             <div

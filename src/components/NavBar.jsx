@@ -7,7 +7,8 @@ const Navbar = () => {
       style={{
         position: 'sticky',
         top: 0,
-        display: 'flex',
+        // display: 'flex',
+        display: window.innerWidth < 768 ? 'none' : 'flex',
         justifyContent: 'flex-end',
         padding: '1.5rem',
         backgroundColor: '#4A5D77',

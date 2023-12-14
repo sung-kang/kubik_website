@@ -11,7 +11,7 @@ const About = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '80vh',
-        color: '#fff',
+        color: '#F8D49B',
         fontSize: '2rem',
         textAlign: 'center',
       }}
@@ -25,7 +25,9 @@ const About = () => {
         }}
       />
       <h1>kubik v1.0.0 </h1>
-      <p>Monitor and Visualize Your Kubernetes Clusters</p>
+      <p style={{ color: '#fff' }}>
+        Monitor and Visualize Your Kubernetes Clusters
+      </p>
     </Element>
   );
 };

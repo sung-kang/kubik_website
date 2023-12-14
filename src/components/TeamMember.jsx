@@ -41,7 +41,8 @@ const TeamMember = ({ member }) => {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'space-around',
+          justifyContent: 'center',
+          gap: '3rem',
           marginTop: '1rem',
         }}
       >
