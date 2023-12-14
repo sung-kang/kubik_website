@@ -7,7 +7,7 @@ const TeamMembers = [
   {
     name: 'Branden Chi',
     picture: branden,
-    linkedin: 'https://github.com/brandenchi',
+    linkedin: 'https://www.linkedin.com/in/branden-chi/',
     github: 'https://github.com/brandenchi',
   },
   {
